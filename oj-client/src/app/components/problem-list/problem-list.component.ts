@@ -18,7 +18,7 @@ export class ProblemListComponent implements OnInit {
   }
 
   getProblems(): void {
-    this.problems = this.data.getProblems()
+    this.problems = this.data.getProblems();
 }
 
 
